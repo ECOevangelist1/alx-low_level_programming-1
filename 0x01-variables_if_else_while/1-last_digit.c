@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main - main funtion entry
-* 
+*
 * Return: int(0)
 */
 int main(void)
