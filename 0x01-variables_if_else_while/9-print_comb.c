@@ -12,8 +12,9 @@ int main(void)
 	{
 		putchar((char) (number + 48));
 		putchar(',');
+		if (number == 9)
+			continue;
 		putchar(' ');
 	}
-	putchar('$');
 	return (0);
 }
