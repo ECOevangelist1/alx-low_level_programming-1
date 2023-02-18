@@ -10,9 +10,9 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		putchar((char) (i + 48));
 		for (j = 1; j < 10; j++)
 		{
+			putchar((char) (i + 48));
 			putchar((char) (j + 48));
 			if (i == j)
 				continue;
