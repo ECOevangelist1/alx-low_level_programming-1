@@ -8,9 +8,11 @@
 int main(void)
 {
 	int number;
+	char letter;
 
 	for (number = 0; number < 10; number++)
-		putchar(((char) number));
+		letter = number + 45;
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }
