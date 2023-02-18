@@ -12,6 +12,7 @@ int main(void)
 	{
 		putchar((char) (number + 48));
 		if (number == 9)
+			putchar(' ');
 			continue;
 		putchar(',');
 		putchar(' ');
