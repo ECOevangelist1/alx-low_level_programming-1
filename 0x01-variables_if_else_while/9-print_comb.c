@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar((char) (number + 48));
 		putchar(',');
-		putchar(' ')
+		putchar(' ');
 	}
 	putchar('$');
 }
