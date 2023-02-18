@@ -12,6 +12,8 @@ int main(void)
 		for (int j = 0; j < 10; j++)
 		{
 			putchar((char) (j + 48));
+			if (i == j)
+				continue;
 			putchar(',');
 			putchar(' ');
 		}
