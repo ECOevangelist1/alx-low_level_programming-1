@@ -17,8 +17,9 @@ int main(void)
 			if (i == j)
 				continue;
 			putchar(',');
+			putchar(' ');
 		}
-		putchar(' ');
+		
 	}
 	putchar('\n');
 	return (0);
